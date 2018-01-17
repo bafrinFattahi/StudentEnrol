@@ -62,6 +62,23 @@ email:'Pdawson@student.com',
 username:'b6021233',
 password:'Bru324',
 course: 'BSc Computing').save()
+
+
+def WADI = new Module(
+title: 'Web Application Development Implementation',
+code: '55-23-54',
+credits: 20,
+lecturer: 'Jacky Smith',
+course: 'BSc Computing',
+description: 'All about web development').save()
+
+def INFSYS = new Module(
+title: 'Information System',
+code: '55-23-65',
+credits: 20,
+lecturer: 'Lyne Dawson',
+course: 'BSc Computing',
+description: 'All about information system').save()
     }
     def destroy = {
     }
