@@ -79,7 +79,23 @@ credits: 20,
 lecturer: 'Lyne Dawson',
 course: 'BSc Computing',
 description: 'All about information system').save()
-    }
+
+
+def poneil= new Lecturer(
+fullName: 'Peter Oneil',
+post :'Tutor',
+subject:'Programming',
+lecturerEmail:'poniel@shu.ac.uk',
+office:'9223',
+bio: 'all about peter oniel'
+
+def ldawson= new Lecturer(
+fullName: 'Leyn Dawson',
+post :'Tutor',
+subject:'Mobile Application',
+lecturerEmail:'ldawson@shu.ac.uk',
+office:'9232',
+bio: 'all about lyne Dawson'
     def destroy = {
     }
 }
