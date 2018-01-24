@@ -8,8 +8,11 @@ Boolean isFundingAvailable
 String email
 String username
 String password
-String course
+Course course
 
+String toString(){
+return "$name,$studentID,$course"
+}
 
     static constraints = {
  name blank:false, nullable:false

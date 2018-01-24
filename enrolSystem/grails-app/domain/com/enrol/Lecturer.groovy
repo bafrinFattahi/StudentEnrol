@@ -8,6 +8,9 @@ String lecturerEmail
 String office
 String bio
 
+String toString(){
+return fullName
+}
 
 static constrains={
 

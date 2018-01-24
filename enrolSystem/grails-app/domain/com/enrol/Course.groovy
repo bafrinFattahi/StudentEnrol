@@ -6,7 +6,7 @@ String department
 
 String title
 
-String leader
+Leader leader
 
 String code
 
@@ -21,6 +21,14 @@ int numberOfStudents
 double tuitionFees
 
 String studyMode
+
+String toString(){
+return title
+}
+
+double calculateFees(){
+4*tuitionFees
+}
 
     static constraints = {
 title blank:false, nullable:false
